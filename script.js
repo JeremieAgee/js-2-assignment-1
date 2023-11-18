@@ -48,7 +48,7 @@ elms = document.querySelectorAll(".jump");
 
 function oneJump(event) {
 	elm = event.target.style;
-	elm.transition = "1s";
+	elm.transition = "3s";
 	elm.position = "relative";
 	elm.color = "purple";
 	elm.backgroundColor = "pink";
