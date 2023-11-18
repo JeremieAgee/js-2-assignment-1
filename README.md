@@ -14,7 +14,6 @@ We have been setting style like this:
 
 But what if we want to set the style for all the headers at the same time?
 
-
     <h1> Chocolate </h1>
     <h1> Cotton Candy </h1>
     <h1> Snickers </h1>
@@ -45,6 +44,6 @@ Before you start, make a fork of this repository. To turn it in, make a Pull Req
 
 ### Bonus
 
-* Make a button that will do this `onclick` instead of doing this when the pages loads.
-* Try to animate the "jump" with a CSS transition.
-* Try to make it so that you can make any element "jump" by clicking on it.
+- Make a button that will do this `onclick` instead of doing this when the pages loads.
+- Try to animate the "jump" with a CSS transition.
+- Try to make it so that you can make any element "jump" by clicking on it.
