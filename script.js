@@ -15,14 +15,27 @@ elms = document.querySelectorAll("h1");
 for(elm of elms) {
     elm.style.color = "red";
     // TODO: set the backgroundColor;
+    elm.style.backgroundColor = "Blue";
 }
-
+elms = document.querySelectorAll("p");
 // TODO: select and change the p tags
 //       then loop through the elements and change them.
-
+for(elm of elms) {
+    elm.style.color = "Gold";
+    // TODO: set the backgroundColor;
+    elm.style.backgroundColor = "Black";
+}
 
 // TODO: select and change the span tags
 //       then loop through the elements and change them.
+elms = document.querySelectorAll("span");
+// TODO: select and change the p tags
+//       then loop through the elements and change them.
+for(elm of elms) {
+    elm.style.color = "pink";
+    // TODO: set the backgroundColor;
+    elm.style.backgroundColor = "purple";
+}
 
 
 // TODO: Go back to index.html and add
@@ -33,6 +46,4 @@ for(elm of elms) {
 
 // TODO: select and change the elements with a .jump class 
 // Set the style of each jump so that the element moves up 10px on the page.
-// HINT: You can try...
-//       elm.style.position = "relative"
-//       elm.style.top = "-10px"
+
