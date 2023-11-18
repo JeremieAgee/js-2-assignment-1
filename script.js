@@ -49,15 +49,16 @@ for(elm of elms) {
 
 elms = document.querySelectorAll(".jump");
 // HINT: You can try...
+ 
 
  function oneJump(event){
-    elm = event.target;
-    elm.style.position = "relative"
-    elm.style.top = "-10px"
-    elm.style.color = "purple"
-    elm.style.backgroundColor = "pink"
+    elm = event.target.style
+    elm.transition = "1s"
+    elm.position = "relative"
+    elm.color = "purple"
+    elm.backgroundColor = "pink"
+    elm.top = "-10px"
  }
-
  for (jumper of elms){
     jumper.onclick = oneJump;
  }
