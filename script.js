@@ -47,3 +47,10 @@ for(elm of elms) {
 // TODO: select and change the elements with a .jump class 
 // Set the style of each jump so that the element moves up 10px on the page.
 
+elms = document.querySelectorAll(".jump");
+// HINT: You can try...
+
+for(elm of elms){
+    elm.style.position = "relative"
+    elm.style.top = "-10px"
+}
